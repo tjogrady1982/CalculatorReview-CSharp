@@ -54,7 +54,7 @@ namespace Calculator
 
     private static int AddNumber(string message)
     {
-      Console.Write(message);
+//      Console.Write(message);
 
       int number;
 
