@@ -6,8 +6,11 @@ namespace Calculator
   {
     private static void Main(string[] args)
     {
-      Console.WriteLine("Welcome to the calculator!");
-      Console.WriteLine("==========================");
+      Console.Write("Welcome to the calculator! Please choose an operation: ");
+
+      Console.ReadLine();
+
+      Console.Write("Please input the first number: ");
 
       Console.ReadLine();
     }
